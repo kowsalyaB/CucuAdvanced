@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AcurusResume]">
+  <listeners>
+    <listener class-name="classUtils.ReportingExtent"/>
+  </listeners>
+  <test thread-count="5" name="ResumeTrackerCucumber(failed)">
+    <classes>
+      <class name="Runner.RunnerClass">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runner.RunnerClass -->
+    </classes>
+  </test> <!-- ResumeTrackerCucumber(failed) -->
+</suite> <!-- Failed suite [AcurusResume] -->

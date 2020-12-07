@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-07T10:29:17.182Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3961000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginTest.Setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login Data",
+        "description": "",
+        "id": "check-login-functionality;login-data",
+        "after": [
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginTest.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 804000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open URL",
+            "match": {
+              "location": "StepDefinitions.LoginTest.open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 299000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter \"acurus3\" and \"acurus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"acurus3\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"acurus\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.LoginTest.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Select Role",
+            "match": {
+              "location": "StepDefinitions.LoginTest.select_Role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1091000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on sign on button",
+            "match": {
+              "location": "StepDefinitions.LoginTest.click_on_sign_on_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Login Functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/Login.feature",
+    "tags": []
+  }
+]
